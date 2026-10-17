@@ -1,0 +1,30 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Java
+backend/target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 环境
+*.local.yml
+.env
+
+# Maven 本地
+tools/maven/
+# 本地数据与运行日志
+.tmp_pgdata/
+*.log
+tools/*.zip
+tools/*.tar.gz
